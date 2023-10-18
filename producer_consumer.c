@@ -25,7 +25,7 @@
 #include <linux/slab.h>
 
 //defines
-#define MAX_BUFFER_SIZE 500
+#define MAX_BUFFER_SIZE 1000
 #define MAX_NO_OF_PRODUCERS 1
 #define MAX_NO_OF_CONSUMERS 100
 #define PCINFO(s, ...) pr_info("###[%s]###" s, __FUNCTION__, ##__VA_ARGS__)
